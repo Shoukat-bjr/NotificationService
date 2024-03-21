@@ -30,7 +30,8 @@ class UserCreatedJob implements ShouldQueue
     {
         Log::info('User created:', [
             'user_id' => $this->data['id'],
-            'username' => $this->data['name'],
+            'first_name' => $this->data['first_name'],
+            'last_name' => $this->data['last_name'],
             'email' => $this->data['email'],
         ]);
     }
