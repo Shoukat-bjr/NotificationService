@@ -2,7 +2,7 @@
 
 This guide outlines the setup process for two microservices: AuthService and NotificationService. Follow the steps below to get started.
 
-## AuthService Setup
+## NotificationService Setup
 
 1. Clone the AuthService repository:
 git clone git@github.com:Shoukat-bjr/AuthService.git
